@@ -86,3 +86,43 @@ h1 {
     margin: 0;
     text-align: center;
 }
+
+
+.row-divs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.row-div {
+    width: calc(25% - 20px); 
+    height: 100px; 
+    columns: grey; 
+    margin-right: 20px; 
+}
+
+.row-div:last-child {
+    margin-right: 0; 
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.but{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+}
+
+.one{
+    background-color: violet;
+}
+button{
+    border-radius: 20px;
+    background-color: pink;
+}
